@@ -22,6 +22,7 @@ nav a{
     text-decoration: none;
     font-size: 20px;
     font-family: var(--heading-font);
+    padding:1.5em;
 }
 
 nav a:hover{
