@@ -166,3 +166,9 @@ p{
     grid-column: 1/4;
     font-size: 20px;
 }
+
+footer{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 100px auto;
+}
