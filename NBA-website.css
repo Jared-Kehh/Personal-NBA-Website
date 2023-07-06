@@ -177,3 +177,20 @@ footer{
     align-items: center;
     margin:0;
 }
+
+.layoutcontact{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 500px 1fr;
+}
+
+.contactimg{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    width: 50%;
+}
+
+.contactpara{
+    grid-row: 2;
+    grid-column: 1/3;
+}
