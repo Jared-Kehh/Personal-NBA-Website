@@ -181,16 +181,68 @@ footer{
 .layoutcontact{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 200px 500px 1fr;
+    grid-template-rows: 300px 500px 200px;
 }
 
 .contactimg{
-    grid-row: 1/2;
-    grid-column: 3/4;
-    width: 50%;
+    grid-row: 1/4;
+    grid-column: 2/4;
+    width: 60%;
 }
 
 .contactpara{
     grid-row: 2;
     grid-column: 1/3;
+}
+
+.West{
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 3;
+    margin:0
+}
+
+.East{
+    width: 93%;
+    grid-column: 4/5;
+    grid-row: 3;
+}
+
+.Nbateamsmain{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 500px 200px 500px 300px;
+}
+
+.nbateamspara{
+    grid-row: 1;
+    grid-column: 1/6;
+}
+
+.Westbutton{
+    grid-row: 4;
+    grid-column: 2/3;
+    width:100%;
+}
+
+.Eastbutton{
+    grid-row: 4;
+    grid-column: 4/5;
+    width:100%;
+}
+
+.headerwest{
+    grid-row: 2;
+    grid-column: 2/3;
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+.headereast{
+    grid-row: 2;
+    grid-column: 4/5;
+    font-size: 50px;
+    text-align: center;
+    font-family: var(--heading-font);
 }
