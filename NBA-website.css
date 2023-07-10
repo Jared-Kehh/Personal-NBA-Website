@@ -186,8 +186,8 @@ footer{
 
 .contactimg{
     grid-row: 1/4;
-    grid-column: 2/4;
-    width: 60%;
+    grid-column: 3/5;
+    width: 100%;
 }
 
 .contactpara{
